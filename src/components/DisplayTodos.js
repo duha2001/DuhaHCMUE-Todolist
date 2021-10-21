@@ -50,13 +50,6 @@ const DisplayTodos = (props) => {
         >
           Tất cả
         </motion.button>
-        <motion.button
-          whileHover={{ scale: 1.1 }}
-          whileTap={{ scale: 0.9 }}
-          onClick={() => setSort("all")}
-        >
-          Xóa tất cả
-        </motion.button>
       </div>
       <ul>
         <AnimatePresence>
